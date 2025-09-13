@@ -35,7 +35,7 @@ def create_booking(token: str):
         "isRoundTrip": False,
         "isReturnTripOpen": True,
         "departureCoreApiTrip": {
-            "date": "2025-09-09", # yyyy-mm-dd
+            "date": "2025-09-14", # yyyy-mm-dd
             "routeID": "07adda23-56e2-475d-15ac-08d7934ea487",  # dari GET Routes
             # "routeID": "a128434c-fe0e-4792-8695-10f4b3ab80eb",  # dari GET Routes
             "id": "398",       # ini Trip ID (contoh dari GetTrips, bukan tripSchedID)

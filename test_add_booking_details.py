@@ -57,6 +57,6 @@ if __name__ == "__main__":
     print("✅ Login sukses, token berhasil didapat.")
 
     # contoh bookingID yang didapat dari create booking sebelumnya
-    booking_id = "73edf9ab-1196-4b6b-9513-08ddeb9aadab"
+    booking_id = "52ac9e1c-cc8e-49e9-4ce7-08ddf1eee351"
 
     add_booking_detail(token, booking_id)

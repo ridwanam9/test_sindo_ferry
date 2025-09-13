@@ -17,7 +17,7 @@ def login():
     headers = {"Content-Type": "application/json"}
 
     try:
-        response = requests.post(login_url, json=login_payload, headers=headers, timeout=10)
+        response = requests.post(login_url, json=login_payload, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
         if data.get("status") == "Ok":

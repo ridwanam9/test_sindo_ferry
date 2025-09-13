@@ -53,6 +53,6 @@ if __name__ == "__main__":
     token = login()
 
     # ⚠️ Ganti dengan bookingID hasil create booking kamu
-    booking_id = "73edf9ab-1196-4b6b-9513-08ddeb9aadab"
+    booking_id = "19f6c0f8-e505-44e2-37fa-08ddf10795b8"
 
     get_booking_details(token, booking_id, search="ANDI")
